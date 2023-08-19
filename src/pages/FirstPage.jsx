@@ -1,6 +1,6 @@
 export default function FirstPage() {
   return (
-    <section className="bg-white dark:bg-black">
+    <section className="bg-white dark:bg-black border-b border-white">
       <div className="py-8 px-4 mx-auto max-w-screen-xl h-[720px] flex items-center flex-col justify-center text-center lg:py-16">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           Accelerate Your Startup&apos;s Online Growth with NexusScale
