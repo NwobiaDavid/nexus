@@ -7,7 +7,7 @@ export default function SecondPage() {
   return (
     <div className="flex w-full flex-col dark:bg-black dark:text-white justify-center lg:px-[17%] lg:py-[4%]  items-center">
     <h2 className="text-2xl p-3 border-b-4 mb-3 font-bold border-transparent duration-200 hover:border-blue-600">ABOUT US</h2>
-        <p className='p-7 text-4xl font-medium leading-[120%] text-gray-900 dark:text-gray-400 text-center secondpage-text'>
+        <p className='p-7 text-lg lg:text-4xl font-medium leading-[120%] text-gray-900 dark:text-gray-400 text-center secondpage-text'>
           At NexusScale, we guide startups on targeted journeys to digitally
           connect with their audiences. Our social media experts specialize in
           amplifying emerging brands - crafting authentic stories on social

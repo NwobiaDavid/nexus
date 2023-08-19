@@ -13,7 +13,7 @@ function AccordionItem({ title, content, isActive, onClick }) {
   return (
     <div
       style={{ borderColor: isActive ? 'blue' : null }}
-      className="border-b-2 hover:border-blue-600 w-[600px]"
+      className="border-b-2 dark:border-black dark:hover:border-blue-600 hover:border-blue-600 w-[600px]"
     >
       <button
         className="w-full font-bold flex py-6 text-3xl px-5 text-left focus:outline-none transition-transform ease-in"
