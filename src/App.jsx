@@ -1,5 +1,7 @@
 import NavBar from './components/NavBar'
+import FifthPage from './pages/FifthPage'
 import FirstPage from './pages/FirstPage'
+import FourthPage from './pages/FourthPage'
 import SecondPage from './pages/SecondPage'
 import ThirdPage from './pages/thirdPage'
 
@@ -10,6 +12,8 @@ function App() {
       <FirstPage />
       <SecondPage />
       <ThirdPage />
+      <FourthPage/>
+      <FifthPage />
     </div>
   )
 }

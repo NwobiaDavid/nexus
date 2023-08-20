@@ -20,6 +20,7 @@ export default function SecondPage() {
           and elevate your startup&apos;s story.
         </p>
       
+      <button className="bg-blue-700 text-white px-3 py-5 text-lg mt-4 hover:rounded-lg capitalize duration-200 ">Grow your online presence</button>
     </div>
   );
 }
