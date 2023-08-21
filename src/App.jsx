@@ -1,3 +1,4 @@
+import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import FifthPage from './pages/FifthPage'
 import FirstPage from './pages/FirstPage'
@@ -16,6 +17,7 @@ function App() {
       <FourthPage/>
       <FifthPage />
       <SixthPage />
+      <Footer />
     </div>
   )
 }
