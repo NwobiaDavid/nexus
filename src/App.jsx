@@ -3,6 +3,7 @@ import FifthPage from './pages/FifthPage'
 import FirstPage from './pages/FirstPage'
 import FourthPage from './pages/FourthPage'
 import SecondPage from './pages/SecondPage'
+import SixthPage from './pages/SixthPage'
 import ThirdPage from './pages/thirdPage'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <ThirdPage />
       <FourthPage/>
       <FifthPage />
+      <SixthPage />
     </div>
   )
 }
