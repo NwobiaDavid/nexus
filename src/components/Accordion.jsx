@@ -5,7 +5,7 @@ import { RiRadioButtonFill } from "react-icons/ri";
 
 function AccordionItem({ title, content, isActive, onClick }) {
   const contentStyles = {
-    height: isActive ? '260px' : '0', // Adjust the max height as needed
+    height: isActive ? '320px' : '0', // Adjust the max height as needed
     overflow: 'hidden',
     transition: 'height 0.3s ease-in', // Adjust the duration as needed
   };
@@ -13,7 +13,7 @@ function AccordionItem({ title, content, isActive, onClick }) {
   return (
     <div
       style={{ borderColor: isActive ? 'blue' : null }}
-      className="border-b-2 dark:border-black dark:hover:border-blue-600 hover:border-blue-600 w-[600px]"
+      className="border-b-2 dark:border-black dark:hover:border-blue-600 hover:border-blue-600 lg:w-[600px]"
     >
       <button
         className="w-full font-bold flex py-6 text-3xl px-5 text-left focus:outline-none transition-transform ease-in"
